@@ -1,0 +1,371 @@
+\documentclass[a4paper, 12pt, ngerman]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{babel}
+\usepackage{a4wide}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{ulem}
+\usepackage{selinput}
+\usepackage{enumitem}
+\usepackage{cleveref}
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+\newcommand{\changefont}[3]{\fontfamily{#1}\fontseries{#2}\fontshape{#3}\selectfont}
+
+\newcommand{\streichen}[1]{\textcolor{red}{\sout{#1}}}
+\newcommand{\neu}[1]{\textcolor{OliveGreen}{#1}}
+\newcommand{\formalneu}[1]{\textcolor{blue}{#1}}
+\newcommand{\formalstreichen}[1]{\textcolor{violet}{\sout{#1}}}
+
+\newcommand{\vv}{VV}
+\newcommand{\rat}{FSR}
+\newcommand{\rates}{FSR}
+\newcommand{\go}{GO}
+\newcommand{\satzung}{Satzung}
+\newcommand{\mitglieder}{Ratsmitglieder}
+\newcommand{\mitglied}{Ratsmitglied}
+\newcommand{\mitgliedes}{Ratsmitgliedes}
+\newcommand{\fsmitglied}{Fachschaftsmitglied}
+\newcommand{\fsmitglieder}{Fachschaftsmitglieder}
+
+\title{\textsc{Geschäftsordnung des Rates der Fachschaft für Physik und Astronomie der Ruhr-Universität Bochum}}
+\date{12.\,Dezember 2023}
+
+\begin{document}
+\renewcommand{\labelenumi}{§ \arabic{enumi}}
+\renewcommand{\labelenumii}{(\arabic{enumii})}
+\renewcommand{\labelenumiii}{\alph{enumiii})}
+
+\renewcommand{\theenumi}{\arabic{enumi}}
+\renewcommand{\theenumii}{ Abs. \arabic{enumii}}
+\renewcommand{\theenumiii}{lit. \alph{enumiii}}
+
+\crefname{enumi}{§}{§§}
+
+\newcommand{\goref}[1]{\cref{#1} GO}
+
+\newcommand{\cen}[1]{\textsc{#1}}
+\newcommand{\cc}[1]{\begin{center} \Large\bf \textsc{#1}
+	\end{center}}
+
+\changefont{ppl}{m}{n}
+
+\maketitle
+\thispagestyle{empty}
+
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=0.8\linewidth]{neues-logo.png}
+%\end{figure}
+%
+
+	\cc{Kapitel I. Geltungsbereich}
+	\begin{enumerate}[leftmargin=0cm]
+		
+	\item \cen{Geltungsbereich}
+	
+	\begin{enumerate}[leftmargin=0cm]
+		\item Diese Geschäftsordnung (\go) regelt die Arbeit des
+		Rates der Fachschaft für Physik und Astronomie (\rat) der Ruhr-Universität Bochum
+		(RUB), seiner Arbeitskreise und seiner Ausschüsse während und zwischen den
+		Sitzungen.
+		\item Diese GO gilt nur so weit, wie sie nicht Bestimmungen durch Gesetz, die Satzung der Fachschaft für Physik und Astronomie (i.F. \satzung) oder die Satzung der Studierendenschaft zuwiderläuft.
+	\end{enumerate}
+	
+	\cc{Kapitel II. Ämter innerhalb der Fachschaft}
+
+	\item \cen{Ämter}\label{Amter}
+	
+	\begin{enumerate}[leftmargin=0cm]
+		\item Zur Erledigung seiner Aufgaben betraut der \rat~einzelne Ratsmitglieder mit Ämtern entsprechend den Aufgaben\label{Amter.grundl}
+			\begin{enumerate}[leftmargin=0.5cm]
+				\item Vertretung der Fachschaft,
+				\item deren Stellvertretung,
+				\item Finanzverwaltung,
+				\item Kassenverwaltung (zwei) und
+				\item IT-Verwaltung.\label{Amt:IT}
+			\end{enumerate}
+		\item Zugehörige Amtsbezeichnungen sind Sprecher (a), stellvertretender Sprecher (b), Finanzreferent (c), Kassenwart (d) bzw. IT-Beauftragter (e) oder andersgeschlechtliche Entsprechungen.
+		\item Neben den in \goref{Amter.grundl} genannten, \textit{grundlegenden} Ämtern, kann der \rat~zur Erledigung seiner Aufgaben weitere 
+		\fsmitglieder~mit dann zu definierenden Ämtern betrauen.\label{weitereAmter}
+		\item Wahlen zu grundlegenden Ämtern sollen auf der konstituierenden Sitzung durchgeführt werden. Das mit der Vertretung der Fachschaft betraute \mitglied~ergibt sich gemäß §~8 Abs. 4 der Satzung.\label{amtswahlzeit}
+		\item Grundlegende Ämter können bei Niederlegung des Amtes oder durch ein konstruktives Misstrauensvotum, Ämter nach \goref{weitereAmter} im freien Ermessen des \rates, neu vergeben werden. Damit ein Misstrauensvotum erfolgreich ist,  muss eine absolute Mehrheit der amtierenden \mitglieder~dafür stimmen.
+        Bis zur Benennung der Nachfolge bleiben die zuständigen Personen geschäftsführend im Amt.
+		\item Wer ein Amt annimmt, verpflichtet sich mit Amtsantritt auch zur Einarbeitung seiner Nachfolge und zur Bereitstellung der notwendigen Grundlage zur Weiterarbeit. Kandidierende sollen auf diese Verantwortung vor Annahme ihres Amtes hingewiesen werden.
+		\item Ist die zuständige Person zur Entscheidungsfindung nicht erreichbar, so kann in dringlichen Angelegenheiten ggf. deren Stellvertretung entscheiden; über eine solche Maßnahme ist die zuständige Person unverzüglich zu unterrichten.
+		\item Eine Beschreibung der jeweiligen Tätigkeitsbereiche soll dieser Geschäftsordnung angehängt werden.
+	\end{enumerate}
+
+	\item \cen{Vertretung der Fachschaft}
+	
+	\begin{enumerate}[leftmargin=0cm]
+		\item Die Vertretung der Fachschaft beinhaltet die offizielle Vertretung der Fachschaft, sowie die Verkündung bzw. Weitergabe von Beschlüssen. Das für die Vertretung der Fachschaft zuständige Ratsmitglied soll den \rat~und seine Mitglieder zu neuen Projekten ermutigen und bei der Planung unterstützen.
+		\item Dem zuständigen \mitglied~ist eine Stellvertretung zur Seite gestellt. Diese hat es bei der Ausübung der Aufgaben zu unterstützen. Die Aufgaben können teilweise an andere \mitglieder~übertragen werden. 
+	\end{enumerate}
+	
+	\item \cen{Finanz- und Kassenverwaltung}
+	
+	\begin{enumerate}[leftmargin=0cm]
+		\item Die Finanzverwaltung beinhaltet die Führung des Kassenbuchs und Prüfung des Barkassenbuchs. Das zuständige \mitglied~legt dem \rat~mindestens zwei Wochen vor Ende des Haushaltsjahres einen Entwurf des Haushaltsplanes für das kommende Haushaltsjahr vor.
+		\item In Entscheidungen des \rates, welche die Finanzen des \rates~betreffen, hat das mit der Finanzverwaltung betraute \mitglied~grundsätzlich ein aufschiebendes Veto (entsprechend §~7 Abs. 2 HWVO NRW).
+		\item Die Verwaltung der Finanzen ist gemäß §~16 HWVO NRW und damit unter entsprechender Anwendung der Regelungen von §§~7, 8~und~15 HWVO NRW durchzuführen.
+		\item Die mit der Finanz- und Kassenverwaltung betrauten Personen sind bei Amtsantritt auf das Datengeheimnis zu verpflichten.
+        %\textcolor{green}{
+        %\item Die mit der Kassenverwaltung betrauten Personen nehmen die Aufgaben der Kassenverwalter i. S. d. HWVO NRW wahr. Zahlungen dürfen nur von diesen und nur aufgrund schriftlicher oder elektronischer Anordnung (Kassenanordnung) angenommen oder geleistet werden. Einzahlungen, die durch Übergabe oder Übersendung von Zahlungsmitteln (Bargeld, Schecks) entrichtet werden, sind auch dann anzunehmen, wenn eine schriftliche oder elektronische Anordnung nicht vorliegt. Dies gilt auch für überwiesene Beträge. Die Anordnung ist nachträglich zu erteilen.
+        %\item Der Empfang der Kassenanordnung ist durch einer der mit der Kassenverwaltung betrauten Personen schriftlich oder elektronisch zu bescheinigen.
+        %\item Einer mit der Kassenverwaltung betrauten Person ist die Annahme oder Auszahlung von Bargeld vorbehalten (Barkassenwart). Sie hat über jede Annahme oder Ausgabe von Bargeld eine Eintragung in das geeignete Kassenbuch vorzunehmen, welches
+        %\begin{enumerate}[leftmargin=0.5cm]
+		%	\item Datum der Tätigung,
+		%	\item Ein- bzw. Auszahler,
+		%	\item Summe des Bargelds und
+		%	\item Verwendungszweck oder Kostenstelle.
+		%\end{enumerate}
+        %beinhaltet.}
+	\end{enumerate}	
+	
+	\item \cen{IT-Verwaltung}
+	
+	\begin{enumerate}[leftmargin=0cm]
+		\item Die IT-Verwaltung hat insbesondere die Aufgabe die Website, den Newsletter, den Moodle-Kurs und die Mailinglisten des \rates~zu verwalten.
+		\item Dem für die IT-Verwaltung zuständigen \mitglied~können weitere \fsmitglieder~zur Seite gestellt werden, welche es bei der Ausführung seiner Aufgaben unterstützen. Die Bezeichnung ihrer Ämter obliegen dem \rat~nach eigenem Ermessen; ihre Tätigkeiten werden durch das zuständige \mitglied~festgelegt.		
+		\item Die mit der IT-Verwaltung betrauten Personen sind bei Amtsantritt auf das Datengeheimnis zu verpflichten.
+	\end{enumerate}
+ 
+	\cc{Kapitel III. Sitzungen des Fachschaftsrates}
+	
+	\item \cen{Grundsätzliches zu Sitzungen}
+	
+	\begin{enumerate}[leftmargin=0cm]
+		\item Die Sitzungen des \rates~setzen sich ausschließlich zusammen aus 
+		\begin{enumerate}[leftmargin=0.5cm]
+			\item seiner konstituierenden Sitzung,
+			\item den ordentlichen Sitzungen
+			\item und den Dringlichkeitssitzungen.
+		\end{enumerate}
+		\item Der \rat~tagt in der Regel in einem temporalen Abstand von nicht mehr als zwei Wochen. Hiervon kann während den Ferienzeiten abgewichen werden.
+	\end{enumerate}
+	
+	\item \cen{Ankündigung und Einberufung}
+	
+	\begin{enumerate}[leftmargin=0cm]
+		\item Sitzungstermine müssen mit einer Vorlaufzeit von mindestens zwei Stunden zumindest fachschaftsöffentlich bekannt gemacht werden, ordentliche Sitzungen mit einer Vorlaufzeit von vierundzwanzig Stunden, sofern der Abstand zur letzten ordentlichen Sitzung mehr als vierundzwanzig Stunden beträgt; die Veröffentlichung des Termins in einem Protokoll ist für die Bekanntmachung hinreichend.
+		\item Die Termine der ordentlichen Sitzung werden durch den \rat~festgelegt, die der Dringlichkeitssitzungen durch das für die Vertretung der Fachschaft zuständige \mitglied. Sollte kein neuer Termin einer ordentlichen Sitzung angesetzt sein, so obliegt die Festlegung des nächsten Termins dem für die Vertretung der Fachschaft zuständigen \mitglied.
+		\item Für die Einberufung einer Sitzung ist die Angabe von Ort und Zeitpunkt der Sitzung erforderlich.
+		
+		% Zusammenfassen?
+	\end{enumerate}
+	
+	\item \cen{Sitzungsleitung}\label{sitzungsleitung}
+	
+	\begin{enumerate}[leftmargin=0cm]
+	\item Zu Beginn jeder Sitzung ist eine Sitzungsleitung zu bestimmen. 
+	\item Bis zur Bestimmung einer Sitzungsleitung leiten in der Regel das für die Vertretung der Fachschaft zuständige \mitglied , dessen Stellvertretung oder eine durch dieses \mitglied~benannte Person die Sitzung des \rates.
+	\end{enumerate}
+	
+	\item \cen{Protokollführung}\label{protokollfuhrung}
+	
+	\begin{enumerate}[leftmargin=0cm]
+		\item Über jede Sitzung des \rates~ist ein Ergebnisprotokoll anzufertigen, welches
+		\begin{enumerate}
+			\item unsinnige Kommentare und Verzierungen enthalten kann,
+			\item Ort und Zeitpunkt der nächsten Sitzung enthalten soll,
+			\item wichtige Diskussionspunkte und Argumente enthalten soll,
+			\item relevante Anträge im Wortlaut und
+			\item als Anlage ggf. Erklärungen gemäß §~\ref{pers.erkl} enthalten muss.
+		\end{enumerate}
+		\item Für die Protokollführung
+		ist die Sitzungsleitung zuständig, sofern keine andere Person damit betraut wird.		
+		\item Protokolle sind zumindest fachschaftsöffentlich binnen einer Woche nach der Sitzung bekannt zu machen, die Bekanntmachung soll mindestens zwei Stunden vor der nächsten ordentlichen Sitzung stattfinden. Sollte eine \vv~stattfinden, so hat die Bekanntmachung noch vor deren Beginn zu erfolgen.
+		\item Protokolle vergangener Sitzungen erhalten durch Bekanntmachung vorläufigen Charakter und bedürfen der Genehmigung des \rates. Sollte der \rat~nicht noch einmal zusammentreten, so überträgt sich die Genehmigungspflicht auf den nachfolgenden \rat.
+		\item Ein erneuter Aushang infolge der Genehmigung ist nicht erforderlich, sofern Änderungen aus dem Protokoll, in welchem die Genehmigung dokumentiert ist, nachvollziehbar oder redaktioneller Art sind.
+	\end{enumerate}
+
+	\item \cen{Persönliche Erklärungen}\label{pers.erkl}
+	
+	\begin{enumerate}[leftmargin=0cm]
+		\item Alle \fsmitglieder~haben das Recht persönliche Erklärungen abzugeben. Die Einreichung einer persönlichen Erklärung ist bis zu zwei Tage nach Genehmigung des Protokolls möglich.
+		\item Persönliche Erklärungen müssen schriftlich und digital bei der Protokollführung
+		eingereicht werden. Sie sollen eine Länge von zwei DIN A4-Seiten nicht überschreiten.
+		\item Betroffene dürfen in einer persönlichen Erklärung nicht zur Sache sprechen, sondern nur
+		Äußerungen, die in der Aussprache in Bezug auf ihre Person
+		gemacht wurden, zurückweisen, eigene Ausführungen richtig
+		stellen oder ihre Abstimmung begründen.
+		\item Die Protokollführung kann in Absprache mit der Sitzungsleitung Schwärzungen an dem Dokument vornehmen, wenn sie schutzwürdige Interessen Einzelner oder der Fachschaft bedroht sieht. Eine ungeschwärzte Version ist beim \rat~zur Einsichtnahme zu hinterlegen.
+	\end{enumerate}
+	
+	\cc{Kapitel IV. Fortgang der Sitzung}
+	
+	\item \cen{Rede- und Antragsrecht}
+	
+	\begin{enumerate}[leftmargin=0cm]
+		\item Alle \mitglieder~haben Rede- und Antragsrecht.
+		\item Alle \fsmitglieder~sind den Ratsmitgliedern im Rede- und Antragsrecht grundsätzlich gleichgestellt.
+		\label{antragsrecht-fsmitglieder}
+		\item Alle \fsmitglieder~haben das Recht, im Vorfeld einer Sitzung Anträge schriftlich einzubringen. Über die Besprechung des Antrags wird im Rahmen der TO abgestimmt. Die Anträge sind dem Protokoll stets beizufügen, die Aussetzung der Besprechung ist zu begründen.
+	\end{enumerate}
+	
+	\item \cen{Redeordnung}\label{redeordnung}
+	
+	\begin{enumerate}[leftmargin=0cm]
+		\item Die Sitzungsleitung erteilt das Wort in der Reihenfolge der Wortmeldungen. Die Sitzungsleitung kann
+		jederzeit selbst das Wort ergreifen; die Protokollführung kann jederzeit das Wort ergreifen, soweit dies zur Durchführung der ihr übertragenen Aufgabe erforderlich ist.
+		\item Die Sitzungsleitung kann von der Redeliste abweichen, wenn
+		ihr dies für den Fortgang der Sitzung sinnvoll erscheint
+		- diese Maßnahme ist den Anwesenden anzuzeigen - sowie bei
+		Wortmeldungen zur direkten Gegenrede.
+		\item Antragsstellende können sowohl zu Beginn als auch zum Schluss der Beratung über ihren
+		Antrag das Wort verlangen.
+	\end{enumerate}
+	
+	\item \cen{Tagesordnung (TO)} \label{tagesordnung}
+	
+	\begin{enumerate}[leftmargin=0cm]
+		\item Das für die Vertretung der Fachschaft zuständige Ratsmitglied, dessen Stellvertretung oder ein durch dieses \mitglied~beauftragtes \mitglied~soll eine vorläufige TO aufstellen.
+		\item Ständige Punkte auf der TO ordentlicher Sitzungen sind:
+		\begin{enumerate}[leftmargin=1.4cm]
+			\item[TOP 1:] Organisatorisches und
+			\item[TOP 2:] Anfragen an den \rat.
+		\end{enumerate}
+		\item Unter TOP 1 fallen insbesondere
+		\begin{enumerate}[leftmargin=0.5cm]
+			\item Eröffnung und Feststellung der Beschlussfähigkeit,
+			\item Bestimmung von Sitzungsleitung und Protokollführung,
+			\item Genehmigungen von Protokollen vergangener Sitzungen und
+			\item die Festlegung der Tagesordnung.
+		\end{enumerate}
+		\item Die TO endet grundsätzlich mit dem TOP Verschiedenes. Es ist möglich, nicht-öffentliche Tagesordnungspunkte nach dem TOP Verschiedenes anzusetzen.
+	\end{enumerate}
+	
+	\cc{Kapitel V. Ausschüsse und Arbeitskreise}
+	
+	\item \cen{Ausschüsse}\label{ausschuss}
+	
+	\begin{enumerate}[leftmargin=0cm]
+		\item Zur Erledigung seiner Arbeit kann der \rat~Ausschüsse bilden.
+		\item Der Vorsitz und die Mitglieder eines Ausschusses werden durch den \rat~bestimmt. Diese sind aus dem Kreis der \fsmitglieder~auszuwählen; eine Umbesetzung ist durch Beschluss des \rates~möglich.
+		\item Der Ausschussvorsitzende beruft die konstituierende Sitzung des Ausschusses ein. Diese ist beschlussfähig, wenn die Mehrheit der Ausschussmitglieder anwesend ist.
+		\item Der Ausschuss führt seine Geschäfte selbstständig. Bei Uneinigkeit gelten diese \go~oder, falls diese \go~die Angelegenheit nicht regelt, die Geschäftsordnung des Studierendenparlaments entsprechend. 
+		\item Über eine Ausschusssitzung ist Protokoll zu führen. Ausschussprotokolle müssen auch die Meinung der Minderheit berücksichtigen.
+	\end{enumerate}
+
+	\item \cen{Arbeitskreise (AK)}\label{arbeitskreis}
+	
+	\begin{enumerate}[leftmargin=0cm]
+		\item Der \rat~kann nach eigenem Ermessen Arbeitskreise (AK) einsetzen. Ihre Bildung und ihr Zweck sind mit dem Beschluss zur Einsetzung zu veröffentlichen.
+		\item Der \rat~bestimmt einen oder mehrere Leitende des AK. Diese sind frei bei der Ausführung der dem AK zugewiesenen Aufgaben. Dies betrifft die Zusammensetzung des AK, den Fortgang seiner Sitzungen und die sonstige Geschäftsführung des AK. Über die Arbeit des AK ist auf den Sitzungen des \rates~oder durch Zusammenfassungen in Sitzungsprotokollen zu berichten.
+		\item Der AK kann keine endgültigen Beschlüsse fassen, sondern spricht nur Empfehlungen an den \rat~aus.
+		\item Es ist jedem \mitglied~gestattet, unabhängig von dem AK, selbstständig Vorschläge zu dem Projekt zu entwickeln und seine Ergebnisse dem \rat~schriftlich zukommen zu lassen. Über das weitere Vorgehen entscheidet der \rat.
+	\end{enumerate}
+
+    \newpage
+	
+	\cc{Kapitel VI. Beschlussfähigkeit und Abstimmungen}
+	
+	\item \cen{Beschlussfähigkeit}
+	
+		Bis zur Feststellung der Beschlussunfähigkeit ist eine Sitzung
+		beschlussfähig, wenn sie einmal für beschlussfähig erklärt
+		worden ist.
+	
+	\item \cen{Wahlen}\label{wahlen}
+	
+	\begin{enumerate}[leftmargin=0cm]
+		\item Wahlen im Sinne dieser \go~sind diejenigen Abstimmungen, die in der Satzung oder dieser \go~ausdrücklich als Wahlen bezeichnet werden, dies betrifft insbesondere die Ämter gemäß \goref{Amter}.
+		\item Wahlen werden von der Sitzungsleitung geleitet. Sie erfolgen grundsätzlich offen per Handzeichen. Alle Anwesenden können Personen für die Wahl vorschlagen.
+		\item Wahlen zu Ämtern, für die alle Fachschaftsmitglieder kandidieren können, sollen mit einer Vorlaufzeit von zumindest vierundzwanzig Stunden angekündigt werden.
+		\item Die Sitzungsleitung eröffnet und schließt die Liste für Kandidierende und fragt diese, sofern sie anwesend sind, ob sie die Kandidatur annehmen. Den Kandidierenden ist im Rahmen dessen die Möglichkeit zu geben sich vorzustellen.
+		\item Die Sitzungsleitung eröffnet und schließt die Wahlgänge, leitet
+		die Stimmenauszählung, gibt nach dem Wahlgang das
+		Abstimmungsergebnis bekannt und fragt die Gewählten, ob sie
+		die Wahl annehmen.
+		\item Gewählt ist, wer die absolute Mehrheit der Anwesenden auf sich vereinigt, sofern dies nicht durch diese \go~abweichend geregelt ist. Sollte nach zwei Wahlgängen niemand die absolute Mehrheit erreichen, so ist in den folgenden Wahlgängen zwischen denjenigen mit den meisten Stimmen im vorhergehenden Wahlgang abzustimmen.
+		\item In dringenden Fällen ist es möglich, Wahlen über einen Mailverteiler des \rates~durchzuführen. Die Abs. 2 - 5 entfallen dann. Für die Wahl ist eine absolute Mehrheit der \mitglieder~erforderlich. Alles weitere regelt \goref{dringlichkeit}.
+	\end{enumerate}
+
+	\item \cen{Abstimmungen}\label{abstimmung}
+	
+	\begin{enumerate}[leftmargin=0cm]
+		\item Die Sitzungsleitung gibt vor einer Abstimmung den Wortlaut 
+		des Antrags bekannt.
+		\item Im Falle konkurrierender Anträge ist über den weitestgehenden Antrag zuerst abzustimmen.
+		Die Sitzungsleitung schlägt eine Reihung der Anträge vor; über Widerspruch einer antragsstellenden Person entscheiden die anwesenden \mitglieder~durch Abstimmung.
+        Sobald ein Antrag die notwendige Mehrheit gefunden hat, entfallen alle Übrigen. 
+		\item Abstimmungen erfolgen auf einer Sitzung grundsätzlich offen per Handzeichen.
+		\item Die Bestimmung der Sitzungsleitung und der Protokollführung nach \goref{sitzungsleitung,protokollfuhrung} gelten als Abstimmungen im Sinne dieser \go.
+	\end{enumerate}
+		
+
+	\item \cen{Dringlichkeitsabstimmungen}\label{dringlichkeit}
+	
+	\begin{enumerate}[leftmargin=0cm]
+		\item Der FSR kann nach Maßgabe von § 17 Abs. 2 der Satzung Dringlichkeitsabstimmungen über den Mailverteiler des FSR durchführen.
+        Diese können von Fachschaftsräten initiiert werden.
+		\item In diesem Fall ist Antrag angenommen, sobald er eine absolute Mehrheit der Stimmen der amtierenden \mitglieder~erreicht hat.
+		\item Eine Dringlichkeitsabstimmung und ihr Inhalt soll über einen Verteiler der Fachschaft angekündigt werden. Ihr Ergebnis ist auf der nächsten ordentlichen Sitzung des \rates~in das Protokoll aufzunehmen.
+	\end{enumerate}
+
+	\cc{Kapitel VII. Anträge zur Geschäftsordnung}
+	
+	\item \cen{Anträge zur Geschäftsordnung}\label{go-antrage}
+	
+	\begin{enumerate}[leftmargin=0cm]
+		\item Anträge zur \go~dürfen sich nur mit den Umständen der Sitzung befassen. Sie können jederzeit gestellt werden und sind umgehend zu behandeln.
+		\item Anträge zur \go~können insbesondere durch das Heben beider Arme signalisiert werden. Die antragsstellende Person kann ihren Antrag begründen.
+		\item Ein Antrag zur \go~ist angenommen, wenn sich kein
+		Widerspruch erhebt; anderenfalls ist nach Anhören einer
+		Gegenrede abzustimmen, sofern es durch diese GO nicht explizit anders geregelt ist. 
+		\item Anträge zur \go~sind ausschließlich Anträge auf\footnote{gst=Antrag ist grundsätzlich stattzugeben, g=geheime Abstimmung möglich, oA=ohne Aussprache, kZ=kein Zuruf zum Beschluss möglich}
+		\begin{enumerate}[leftmargin=0.5cm]\label{go.antrage}
+			\item Feststellung der Beschlussfähigkeit (gst),
+			\item Änderung einer Entscheidung der Sitzungsleitung (g,kZ),
+			\item Wiederholung einer Abstimmung (gst,kZ),
+			\item wörtliche Aufnahme ins Protokoll (gst),
+			\item Begrenzung der Redezeit auf drei Minuten (g,oA),
+			\item Schluss der Redeliste,
+			\item Schluss der Debatte und sofortige Abstimmung,
+			\item Nichtbefassung mit einem Antrag (g),	
+			\item Vertagung der Behandlung eines TOP,
+			\item Vertagung unter der Auflage einer Verschriftlichung eines Antrags,
+			\item Änderung der Sitzungsleitung oder Protokollführung (g),
+			\item Verfahrensvorschlag,
+			\item geheime Abstimmung (gst) und
+			\item Änderung der Tagesordnung. 
+		\end{enumerate}
+		\item Anträgen nach \cref{go.antrage} lit. a, c, d oder m ist grundsätzlich stattzugeben; Anträge nach \cref{go.antrage} lit. c dürfen dabei jedoch nicht Abstimmungen infolge von lit. c betreffen. Anträge nach lit. m dürfen keine GO-Anträge - mit Ausnahme von lit. b, e, h oder k - betreffen.\label{go.ratsantrag}
+		\item Wird dem Antrag auf Schluss der Redeliste stattgegeben, so
+		verliest die Sitzungsleitung die Namen der auf der Redeliste
+		stehenden Personen und fragt nach weiteren Wortmeldungen.
+		Die Redeliste wird dann geschlossen.
+		\item Wird ein Antrag gemäß \cref{go.antrage} lit. j vertagt, so kann er erst wieder behandelt werden,
+		falls dem \rat~mindestens vierundzwanzig Stunden vor Sitzungsbeginn ein schriftlicher,
+		 begründeter Antrag zukommt. Die Einreichung per Mail ist dabei zulässig.
+		\item Über Anträge nach \cref{go.antrage} lit. e ist umgehend und ohne Aussprache abzustimmen.
+		\item Wird ein Antrag zur \go~abgelehnt, so darf er zu derselben Sache nicht von derselben Person
+		wiederholt werden. 
+		\item Im Ermessen der Sitzungsleitung kann ein Antrag zur GO auch dann als angenommen bzw. abgelehnt gelten, wenn die anwesenden \mitglieder~ihre Meinung durch Zuruf mehrheitlich kundtun. Anträge nach \cref{go.antrage} lit. b oder c bleiben hiervon unberührt.
+	\end{enumerate}
+	
+	\cc{Kapitel VIII. Schlussbestimmungen}
+	
+	\item \cen{Sach- und Ordnungsruf}
+	
+	\begin{enumerate}[leftmargin=0cm]
+		\item Wenn eine Person vom Verhandlungsgegenstand abweicht, kann die Sitzungsleitung sie zur Sache verweisen. Wird eine Person mehrfach in derselben Rede zur Sache verwiesen, so kann ihr die Sitzungsleitung das Wort zu dem in Verhandlung stehenden Gegenstand entziehen.
+		\item Wenn ein \fsmitglied~durch exzessive Nutzung des Antragsrechts den Fortgang der Sitzung beeinträchtigt oder verhindert, so kann die Sitzungsleitung es zur Ordnung rufen. Wird eine Person mehrfach im Rahmen derselben Sitzung zur Ordnung gerufen, so kann die Sitzungsleitung ihr das Antragsrecht für diese Sitzung entziehen. Ein Antrag zur Geschäftsordnung nach § 20 Abs. 4 lit. a, b und d bleibt davon unberührt.
+	\end{enumerate}
+	
+	\item \cen{Abweichungen von der Geschäftsordnung}
+	
+	Im Einzelfall kann auf einer Sitzung des \rates~von den Vorschriften gemäß %\goref{amtsniederlegung,amtswahlzeit,sitzungsleitung,redeordnung,abstimmung,arbeitskreis,go-antrage,ausschuss,wahlen}
+	§§ 2 (Abs. 4), 8, 12, 14, 15, 17, 18 und 20 GO abgewichen werden, falls keines der anwesenden \mitglieder~widerspricht.
+	
+	
+	\item \cen{Auslegung der Geschäftsordnung}
+	
+	 Über die Auslegung der \go~entscheidet in Einzelfällen die Sitzungsleitung, sofern die Frage im Rahmen einer Sitzung auftritt, oder der Sprecher, sofern dies nicht der Fall ist. Bei Widerspruch eines \mitgliedes~ist bei der nächsten Gelegenheit auf einer Sitzung abzustimmen. Eine grundsätzliche, 
+	 über den Einzelfall hinausgehende Auslegung kann nur durch Beschluss des \rates~erfolgen.			
+	\end{enumerate}
+
+
+\end{document}
